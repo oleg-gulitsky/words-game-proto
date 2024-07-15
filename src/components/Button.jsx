@@ -39,5 +39,6 @@ const styles = {
     position: "absolute",
     fontSize: "3.52vh",
     height: "6.16vh",
+    color: "white",
   },
 };

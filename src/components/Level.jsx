@@ -75,11 +75,13 @@ const styles = {
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
+    backgroundColor: "#2b344b",
   },
   title: {
     fontFamily: "VAG World",
     fontSize: "2.64vh",
     lineHeight: "3.08vh",
+    color: "white",
     margin: 0,
     marginTop: "2.38vh",
   },

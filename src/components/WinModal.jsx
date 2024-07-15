@@ -34,11 +34,13 @@ const styles = {
     fontSize: "3.26vh",
     margin: 0,
     marginTop: "26.41vh",
+    color: "white",
   },
   subtitle: {
     fontSize: "4.67vh",
     margin: 0,
     lineHeight: "5.28vh",
+    color: "white",
   },
   button: {
     marginTop: "22.01vh",

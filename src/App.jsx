@@ -22,7 +22,6 @@ export function App() {
     <div style={styles.container}>
       <Level onLevelCompleted={handleLevelCompleted} />
       {isWinModalActive && <WinModal onCloseClick={handleWinModalCloseClick} />}
-      {/* <WinModal onCloseClick={handleWinModalCloseClick} /> */}
     </div>
   );
 }
@@ -32,6 +31,5 @@ const styles = {
     position: "relative",
     width: "100vw",
     height: "100vh",
-    // border: "1px solid red",
   },
 };

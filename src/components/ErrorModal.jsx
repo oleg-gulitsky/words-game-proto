@@ -63,6 +63,7 @@ const styles = {
     fontSize: "3.52vh",
     textAlign: "center",
     lineHeight: "3.52vh",
+    color: "white",
   },
   text: {
     color: "#4D4D4D",

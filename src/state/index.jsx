@@ -45,15 +45,12 @@ export function PersistStateProvider({ children }) {
 
   const checkState = () => {
     if (!checkIsStateRelevance()) {
-      console.log("IsStateRelevance:", checkIsStateRelevance());
-
       setIsErrorModalActive(true);
 
       const level = getSavedLevel();
       setCurrentLevel(level);
 
       const savedOpenWordIndexes = getSavedOpenWordIndexes();
-      console.log("checkState savedOpenWordIndexes:", savedOpenWordIndexes);
       setOpenWordIndexes(savedOpenWordIndexes);
 
       actualizeStateTimestamp();
